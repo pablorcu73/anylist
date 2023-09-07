@@ -38,3 +38,18 @@ export class AppModule {}
 - se crea recurso items
 nest g res items --no-spec
 
+-se crea archivo .env
+
+-se crea archivo: docker-compose.yml
+
+-se corre docker compose, para esto se debe levantar docker desktop
+por primera vez
+docker-compose up 
+
+despues se puede correr 
+docker-compose up -d
+
+- se actualiza README.md
+
+- se configura conexion a la base de datos en nestjs
+
